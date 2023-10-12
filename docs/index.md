@@ -48,3 +48,4 @@ service isc-dhcp-server restart
 ```
 ### 6. Test pada client 
 Jika sudah, apabila kamu menggunakan virtual, pastikan adapter yang digunakan sama dengan hanya satu adapter virtual yang enable, jika sudah jadikan IPv4 obtain IP automatically pada adapter virtual sehingga mendapat IP otomatis. lalu jalankan test ping menuju server.
+.
