@@ -7,7 +7,7 @@ theme:
   icon:
     logo: material/library-shelves
   features:
-    # - navigation.tabs
+    - navigation.tabs
     - navigation.instant
     - navigation.expand
     - content.tabs.link
