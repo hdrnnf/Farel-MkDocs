@@ -1,0 +1,19 @@
+site_name: My Docs
+theme:
+  name: material
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+  icon:
+    logo: material/library-shelves
+  features:
+    # - navigation.tabs
+    - navigation.instant
+    - navigation.expand
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  palette:
+    scheme: default
+    primary: pink
+    accent: pink
