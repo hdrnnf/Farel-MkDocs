@@ -15,5 +15,7 @@ theme:
     - content.code.copy
   palette:
     scheme: default
-    primary: pink
-    accent: pink
+    toggle:
+        icon: material/toggle-switch + material/toggle-switch-off-outline
+    primary: light green
+    accent: light green
