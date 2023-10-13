@@ -1,5 +1,6 @@
 site_name: Hdrnnf Docs 
 theme:
+  logo: img/logo.jpg
   name: material
   font:
     text: IBM Plex Sans
