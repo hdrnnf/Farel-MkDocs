@@ -1,6 +1,7 @@
 site_name: Hdrnnf Docs 
 theme:
-  logo: img/logo.jpg
+  logo: img/burung.png
+  favicon: img/burung.png
   name: material
   font:
     text: IBM Plex Sans
@@ -14,7 +15,22 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  palette:
-    scheme: default
-    primary: pink
-    accent: pink
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/eye 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/eye-outline
+        name: Switch to light mode
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/hdrnnf
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/frlhdrn/

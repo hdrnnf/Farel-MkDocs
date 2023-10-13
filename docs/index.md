@@ -1,4 +1,4 @@
-# Welcome to Project Farel-MkDocs
+# Welcome to Project Farel Project
 
 ## Documentation Debian (DHCP Server) 
 ### 1. Membuat IP Address (Debian)
