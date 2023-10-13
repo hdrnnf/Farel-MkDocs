@@ -1,7 +1,7 @@
 site_name: Hdrnnf Docs 
 theme:
-  logo: img/burung.png
-  favicon: img/burung.png
+  logo: img/bebs.png
+  favicon: img/bebs.png
   name: material
   font:
     text: IBM Plex Sans
@@ -12,25 +12,36 @@ theme:
     - navigation.tabs
     - navigation.instant
     - navigation.expand
+    - navigation.footer
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  palette: 
+    - header.autohide
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
 
     # Palette toggle for light mode
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
       toggle:
-        icon: material/eye 
+        icon: material/eye
         name: Switch to dark mode
 
     # Palette toggle for dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       toggle:
         icon: material/eye-outline
-        name: Switch to light mode
+        name: Switch to system preference
 extra:
   social:
     - icon: fontawesome/brands/github 
       link: https://github.com/hdrnnf
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/frlhdrn/
+copyright: Copyright &copy; 2023 - 2026 Hdrnnf
