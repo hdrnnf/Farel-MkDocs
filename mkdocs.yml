@@ -12,18 +12,11 @@ theme:
     - navigation.tabs
     - navigation.instant
     - navigation.expand
-    - navigation.footer
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
     - header.autohide
   palette:
-
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -38,10 +31,11 @@ theme:
       toggle:
         icon: material/eye-outline
         name: Switch to system preference
+        
 extra:
   social:
     - icon: fontawesome/brands/github 
       link: https://github.com/hdrnnf
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/frlhdrn/
-copyright: Copyright &copy; 2023 - 2026 Hdrnnf
+copyright: Copyright &copy; 2023 Hdrnnf
