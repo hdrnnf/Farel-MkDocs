@@ -1,7 +1,7 @@
 site_name: Hdrnnf Docs 
 theme:
-  logo: img/bebs.png
-  favicon: img/bebs.png
+  logo: img/zoyy.png
+  favicon: img/zoyy.png
   name: material
   font:
     text: IBM Plex Sans
@@ -12,6 +12,8 @@ theme:
     - navigation.tabs
     - navigation.instant
     - navigation.expand
+    - navigation.path
+    - navigation.tops
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
@@ -31,6 +33,9 @@ theme:
       toggle:
         icon: material/eye-outline
         name: Switch to system preference
+
+markdown_extensions:
+  - attr_list
         
 extra:
   social:
